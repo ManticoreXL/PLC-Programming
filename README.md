@@ -3,6 +3,12 @@
 AI융합 로봇 SW개발자 2기생 최민석  
 PLC 프로그래밍 수업 미니 프로젝트
 
+## 데모 영상
+- [순차적 장비 점검 (TEST)](https://youtu.be/1OP95QDDXJI)
+- [소재 가공 및 FIFO 적재](https://youtu.be/opKqtnrGvCA)
+- [소재 개별 및 일괄 하역](https://youtu.be/EgyRwv3C1IU)
+- [전체 시연 영상](https://youtu.be/sFaWmrRSi6g)
+
 ## 프로젝트 목표
 PLC와 MPS 훈련 장비를 사용한 지능형 소재 가공/분류/적재/하역 시스템을 구축한다.  
 기본 동작과 응용 동작, 그리고 HMI 작화를 포함해 하나의 시스템으로 통합한다.  
