@@ -3,6 +3,12 @@
 AI융합 로봇 SW개발자 2기생 최민석  
 PLC 프로그래밍 수업 미니 프로젝트
 
+## 데모 영상
+- [순차적 장비 점검 (TEST)](https://youtu.be/1OP95QDDXJI)
+- [소재 가공 및 FIFO 적재](https://youtu.be/opKqtnrGvCA)
+- [소재 개별 및 일괄 하역](https://youtu.be/EgyRwv3C1IU)
+- [전체 시연 영상](https://youtu.be/sFaWmrRSi6g)
+
 ## 프로젝트 목표
 PLC와 MPS 훈련 장비를 사용한 지능형 소재 가공/분류/적재/하역 시스템을 구축한다.  
 기본 동작과 응용 동작, 그리고 HMI 작화를 포함해 하나의 시스템으로 통합한다.  
@@ -51,26 +57,31 @@ HMI의 Storage Indicator에서 적재된 창고를 누르면 해당 소재만 �
 ## HMI 작화
 ### 화면 구성
 1. 주 화면 (Main Panel)
+![주 화면](images/hmi-main.png)
    - 전원 인가시 초기 화면
    - 각 제어 화면으로 이동하는 스크린 스위칭 버튼 배치
 
 2. 서보 제어 패널 (Servo Panel)
+![서보 제어 패널](images/hmi-servo.png)
    - 서보 모터 제어 기능: JOG 운전, 원점 복귀, 고속 원점 복귀
    - 서보의 현재 위치와 속도를 0.01mm 단위로 실시간 모니터링 가능
    - 에러/경고 코드 표시 및 에러 발생시 리셋 가능
 
 3. 시퀀스 제어 패널 (Sequence Panel)
+![시퀀스 제어 패널](images/hmi-seq.png)
    - MPS 제어 기능: **RUN**(공정 가동), **TEST**(순차적 장비 점검), **UNLOAD ALL** (일괄 하역)
    - **Storage Indicator**: 6개 창고의 적재 상태 시각화 및 개별 하역 기능 제공
    - 7개의 물리 램프와 부저를 HMI에서 시각적 피드백 제공
    - 재질별 작업 계수 및 총계 표시
 
-4. 통계 패널 (Statistics Panel)
+6. 통계 패널 (Statistics Panel)
+![통계 패널](images/hmi-stat.png)
    - Cycle Time 그래프: 최근 7건의 층별 적재 시간 시각화 
    - 1층은 붉은색으로, 2층은 초록색으로, 3층은 하늘색으로 표시
    - 통계량 표시: 각 층별 평균 적재 수행 시간 표시
 
-5. 설정 패널 (Setting Panel)
+8. 설정 패널 (Setting Panel)
+![설정 패널](images/hmi-set.png)
    - 가공 설정: 드릴 동작 횟수 및 시간을 조정 가능
    - 다국어 지원: 영어, 한국어, 일본어 전환 가능 
 
